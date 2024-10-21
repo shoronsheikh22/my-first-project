@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#hero_area {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero_area h2 {
+  color: wheat;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+#hero_area p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+#hero_area .btn {
+  background: brown;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#hero_area .btn:hover {
+  background: blueviolet;
+}
+
+.content {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.flex-box {
+  margin: 20px;
+  height: 600px;
+  border: 1px solid gold;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.flex-item {
+  border: 1px solid #000;
+  padding: 10px;
+}
